@@ -2,7 +2,6 @@ package app;
 
 import java.io.*;
 import java.net.*;
-
 import java.util.*;
 import java.util.concurrent.*;
 
@@ -41,9 +40,7 @@ public class Server {
                 return;
             }
 
-            synchronized (clientWriters) {
-                clientWriters.add(out);
-            }
+            clientWriters.add(out);
 
             System.out.println("User '" + username + "' joined.");
             broadcast("Server: " + username + " has joined the chat.");
