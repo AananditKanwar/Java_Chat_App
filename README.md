@@ -69,7 +69,7 @@ Open more terminal windows and run `java app.EchoClient` again to simulate multi
 
 ---
 
-## 📝 Code Overview
+## Code Overview
 
 ### Server (`Server.java`)
 - Listens for incoming connections on port `12345`.
