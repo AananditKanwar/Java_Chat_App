@@ -4,7 +4,7 @@ A simple multi-client chat application built with **Java Sockets (TCP)**. It all
 
 ---
 
-## 🚀 Features
+## Features
 - **Multi-User Support**: Handles multiple clients simultaneously using threads.
 - **Real-Time Messaging**: Instant message broadcasting to all connected users.
 - **User Notifications**: Alerts everyone when a user joins or leaves.
@@ -12,14 +12,14 @@ A simple multi-client chat application built with **Java Sockets (TCP)**. It all
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Language**: Java
 - **Networking**: `java.net.Socket`, `java.net.ServerSocket` (Blocking I/O)
 - **Concurrency**: `Thread`, `ConcurrentHashMap`
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 TCP_Chat/
 ├── app/
@@ -30,7 +30,7 @@ TCP_Chat/
 
 ---
 
-## 🏃‍♂️ How to Run
+## How to Run
 
 ### prerequisites
 - Java Development Kit (JDK) 8 or higher.
@@ -85,7 +85,7 @@ Open more terminal windows and run `java app.EchoClient` again to simulate multi
 
 ---
 
-## ⚠️ Troubleshooting
+## Troubleshooting
 - **`java.net.BindException: Address already in use`**: The server is already running. Close the previous terminal or kill the process.
 - **`java.net.ConnectException: Connection refused`**: Ensure the server is running *before* starting the client.
 - **`Error: Could not find or load main class app.Server`**: Make sure you run the command from the `TCP_Chat` root folder, NOT inside `app/`.
